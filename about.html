@@ -16,16 +16,74 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Portifolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="about.html">Contact</a></li>
+                <li><a href="about.html#contactform">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <section class=about-1>
+            <img src="https://placehold.co/1600x300" alt="aboutbilde">
+            <div class="tekst-i-bilde">
+                <h3>Company Name</h3>
+                <h2>About Our Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#contactform" class="button-3">Get in touch with us</a>
+            </div>
+        </section>
+        <h3 id="flex-overskrift-2">Our Services</h3>
+        <section class="about-2">
+            <article>
+                <h4>Branding</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h4>Branding</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h4>Branding</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <h4>Branding</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+        <section class="about-3">
+            <h2>Some of our clients</h2>
+            <span id="three-logos">
+                <img src="img/ressurser/logo1.png" alt="leftlogo" id="leftlogo">
+                <img src="img/ressurser/logo2.png" alt="middlelogo" id="middlelogo">
+                <img src="img/ressurser/logo3.png" alt="rightlogo" id="rightlogo">
+            </span>
+        </section>
+        <section id="contactform">
+            <h2>Contact us</h2>
+            <form action="action_page.php">
 
+                <h3>Send us a message</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Ola Nordmann...">
+                <label for="subject">Subject...</label>
+                <input type="text" id="subject" name="subject" placeholder="Branding...">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..."></textarea>
+            
+                <input type="submit" value="Send message">
+            </form>
+            <article id="kontaktinfo">
+                <h3>Contact information</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>B R A Veien 4, 1757, Halden</p>
+                <p>69 60 80 00</p>
+                <p>postmottak@hiof.no</p>
+            </article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.18844106045!2d11.350228377099208!3d59.12924747451803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1701196350512!5m2!1sno!2sno" width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <span id="buttom-logo">
-            <a href="index.html"><img src="img/ressurser/logo2.png" alt="header logo" id="logo"></a>
+            <a href="index.html"><img src="img/ressurser/logo2.png" alt="footer logo" id="footerlogo"></a>
         </span>
         <p>Company copyright 2023</p>
         <ul>
